@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Sorry.WinPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sorry"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Y" FontSize="300" FontFamily="Comic Sans MS" Foreground="Red"/>
+            <TextBlock Text="O" FontSize="300" FontFamily="Comic Sans MS" Foreground="Orange"/>
+            <TextBlock Text="U" FontSize="300" FontFamily="Comic Sans MS" Foreground="Yellow"/>
+            <TextBlock Text="W" FontSize="300" FontFamily="Comic Sans MS" Foreground="Green"/>
+            <TextBlock Text="I" FontSize="300" FontFamily="Comic Sans MS" Foreground="Blue"/>
+            <TextBlock Text="N" FontSize="300" FontFamily="Comic Sans MS" Foreground="Indigo"/>
+            <TextBlock Text="!" FontSize="300" FontFamily="Comic Sans MS" Foreground="Violet"/>
+
+
+        </StackPanel>
+    </Grid>
+</Page>

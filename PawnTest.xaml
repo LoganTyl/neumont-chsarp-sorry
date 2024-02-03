@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Sorry.PawnTest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sorry"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Orientation="Horizontal">
+    <Canvas x:Name="MainCanvas" Tapped="MainCanvas_Tapped" Width="1000" Height="1000" Background="Azure">
+   
+    </Canvas>
+        <Button x:Name="MoveButton" Content="Move" FontSize="40" Click="MoveButton_Click" Width="200" Height="400"></Button>
+    </StackPanel>
+</Page>
