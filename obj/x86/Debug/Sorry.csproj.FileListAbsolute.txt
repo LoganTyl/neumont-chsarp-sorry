@@ -1,0 +1,115 @@
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\App.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\PawnTest.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\MainPage.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Sorry.xr.xml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Sorry.exe
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Sorry.pdb
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\resources.pri
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\AppxManifest.xml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Core\Sorry.exe
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Sorry.build.appxrecipe
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\System.Runtime.dll
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Sorry.csprojAssemblyReference.cache
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\App.g.i.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\App.g.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\MainPage.g.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\PawnTest.g.i.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\PawnTest.g.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\App.xaml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\PawnTest.xaml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\MainPage.xaml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\App.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\PawnTest.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\MainPage.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Sorry.csproj.CoreCompileInputs.cache
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Sorry.csproj.CopyComplete
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Sorry.exe
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Sorry.pdb
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\priconfig.xml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\resources.resfiles
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\pri.resfiles
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\qualifiers.txt
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\bin\x86\Debug\Board.xbf
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Board.g.i.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Board.g.cs
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Board.xaml
+C:\Users\drago\OneDrive - Neumont College of Computer Science\Documents\GitHub\Sorry\Sorry\obj\x86\Debug\Board.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Sorry.csprojAssemblyReference.cache
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\App.g.i.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\App.g.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Board.g.i.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Board.g.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\PawnTest.g.i.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\PawnTest.g.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\MainPage.g.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\App.xaml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Board.xaml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\PawnTest.xaml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\MainPage.xaml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\App.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Board.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\PawnTest.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\MainPage.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\App.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Board.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\PawnTest.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\MainPage.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Sorry.xr.xml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Sorry.exe
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Sorry.pdb
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\resources.pri
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\AppxManifest.xml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Core\Sorry.exe
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Sorry.build.appxrecipe
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\System.Runtime.dll
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Sorry.csproj.CoreCompileInputs.cache
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Sorry.csproj.CopyComplete
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Sorry.exe
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\Sorry.pdb
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\priconfig.xml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\resources.resfiles
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\pri.resfiles
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\qualifiers.txt
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\bin\x86\Debug\WinPage.xbf
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\WinPage.g.i.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\WinPage.g.cs
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\WinPage.xaml
+C:\Users\Logan Tyler\Desktop\Classes\Quarter 4\Intro Software Projects\Sorry-master\obj\x86\Debug\WinPage.xbf

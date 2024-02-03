@@ -1,0 +1,1322 @@
+﻿<Page
+    x:Class="Sorry.Board"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sorry"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="RoyalBlue">
+
+    <Grid x:ConnectionId='2' x:Name="BoardGrid">
+        <!--#region RowColumnDefinitions-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62.4" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="63*" />
+            <RowDefinition Height="62*" />
+            <RowDefinition Height="63*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--#endregion-->
+        <!--#region PerimeterSpaces-->
+        <Button x:ConnectionId='3'
+            x:Name="TopLeftCorner"
+            Grid.Row="0"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='4'
+            x:Name="RedSlider1Start"
+            Grid.Row="0"
+            Grid.Column="1"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='5'
+            x:Name="RedSlider1Middle1"
+            Grid.Row="0"
+            Grid.Column="2"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='6'
+            x:Name="RedSlider1Middle2"
+            Grid.Row="0"
+            Grid.Column="3"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='7'
+            x:Name="RedSlider1End"
+            Grid.Row="0"
+            Grid.Column="4"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='8'
+            x:Name="BlankRedSide1"
+            Grid.Row="0"
+            Grid.Column="5"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='9'
+            x:Name="BlankRedSide2"
+            Grid.Row="0"
+            Grid.Column="6"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"   
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='10'
+            x:Name="BlankRedSide3"
+            Grid.Row="0"
+            Grid.Column="7"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='11'
+            x:Name="BlankRedSide4"
+            Grid.Row="0"
+            Grid.Column="8"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='12'
+            x:Name="RedSlider2Start"
+            Grid.Row="0"
+            Grid.Column="9"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='13'
+            x:Name="RedSlider2Middle1"
+            Grid.Row="0"
+            Grid.Column="10"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='14'
+            x:Name="RedSlider2Middle2"
+            Grid.Row="0"
+            Grid.Column="11"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch" 
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='15'
+            x:Name="RedSlider2Middle3"
+            Grid.Row="0"
+            Grid.Column="12"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='16'
+            x:Name="RedSlider2End"
+            Grid.Row="0"
+            Grid.Column="13"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/RedSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='17'
+            x:Name="BlankRedSide5"
+            Grid.Row="0"
+            Grid.Column="14"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='18'
+            x:Name="TopRightCorner"
+            Grid.Row="0"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='19'
+            x:Name="BlueSlider1Start"
+            Grid.Row="1"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='20'
+            x:Name="BlueSlider1Middle1"
+            Grid.Row="2"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='21'
+            x:Name="BlueSlider1Middle2"
+            Grid.Row="3"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='22'
+            x:Name="BlueSlider1End"
+            Grid.Row="4"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='23'
+            x:Name="BlankBlueSide1"
+            Grid.Row="5"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='24'
+            x:Name="BlankBlueSide2"
+            Grid.Row="6"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='25'
+            x:Name="BlankBlueSide3"
+            Grid.Row="7"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='26'
+            x:Name="BlankBlueSide4"
+            Grid.Row="8"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='27'
+            x:Name="BlueSlider2Start"
+            Grid.Row="9"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='28'
+            x:Name="BlueSlider2Middle1"
+            Grid.Row="10"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='29'
+            x:Name="BlueSlider2Middle2"
+            Grid.Row="11"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='30'
+            x:Name="BlueSlider2Middle3"
+            Grid.Row="12"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='31'
+            x:Name="BlueSlider2End"
+            Grid.Row="13"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/BlueSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='32'
+            x:Name="BlankBlueSide5"
+            Grid.Row="14"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='33'
+            x:Name="BottomRightCorner"
+            Grid.Row="15"
+            Grid.Column="15"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='34'
+            x:Name="YellowSlider1Start"
+            Grid.Row="15"
+            Grid.Column="14"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='35'
+            x:Name="YellowSlider1Middle1"
+            Grid.Row="15"
+            Grid.Column="13"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='36'
+            x:Name="YellowSlider1Middle2"
+            Grid.Row="15"
+            Grid.Column="12"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='37'
+            x:Name="YellowSlider1End"
+            Grid.Row="15"
+            Grid.Column="11"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='38'
+            x:Name="BlankYellowSide1"
+            Grid.Row="15"
+            Grid.Column="10"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='39'
+            x:Name="BlankYellowSide2"
+            Grid.Row="15"
+            Grid.Column="9"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='40'
+            x:Name="BlankYellowSide3"
+            Grid.Row="15"
+            Grid.Column="8"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='41'
+            x:Name="BlankYellowSide4"
+            Grid.Row="15"
+            Grid.Column="7"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='42'
+            x:Name="YellowSlider2Start"
+            Grid.Row="15"
+            Grid.Column="6"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='43'
+            x:Name="YellowSlider2Middle1"
+            Grid.Row="15"
+            Grid.Column="5"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='44'
+            x:Name="YellowSlider2Middle2"
+            Grid.Row="15"
+            Grid.Column="4"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='45'
+            x:Name="YellowSlider2Middle3"
+            Grid.Row="15"
+            Grid.Column="3"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='46'
+            x:Name="YellowSlider2End"
+            Grid.Row="15"
+            Grid.Column="2"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/YellowSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='47'
+            x:Name="BlankYellowSide5"
+            Grid.Row="15"
+            Grid.Column="1"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='48'
+            x:Name="BottomLeftCorner"
+            Grid.Row="15"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='49'
+            x:Name="GreenSlider1Start"
+            Grid.Row="14"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='50'
+            x:Name="GreenSlider1Middle1"
+            Grid.Row="13"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='51'
+            x:Name="GreenSlider1Middle2"
+            Grid.Row="12"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='52'
+            x:Name="GreenSlider1End"
+            Grid.Row="11"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='53'
+            x:Name="BlankGreenSide1"
+            Grid.Row="10"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='54'
+            x:Name="BlankGreenSide2"
+            Grid.Row="9"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='55'
+            x:Name="BlankGreenSide3"
+            Grid.Row="8"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='56'
+            x:Name="BlankGreenSide4"
+            Grid.Row="7"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='57'
+            x:Name="GreenSlider2Start"
+            Grid.Row="6"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderStart.png"/>
+        </Button>
+        <Button x:ConnectionId='58'
+            x:Name="GreenSlider2Middle1"
+            Grid.Row="5"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='59'
+            x:Name="GreenSlider2Middle2"
+            Grid.Row="4"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='60'
+            x:Name="GreenSlider2Middle3"
+            Grid.Row="3"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderMiddle.png"/>
+        </Button>
+        <Button x:ConnectionId='61'
+            x:Name="GreenSlider2End"
+            Grid.Row="2"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black">
+            <Image Source="Images/GreenSliderEnd.png"/>
+        </Button>
+        <Button x:ConnectionId='62'
+            x:Name="BlankGreenSide5"
+            Grid.Row="1"
+            Grid.Column="0"
+            Background="BlanchedAlmond" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            BorderBrush="Black"
+        />
+        <!--#endregion-->
+        <!--#region SafeSpaces&Home-->
+        <Button x:ConnectionId='63'
+            x:Name="RedSafe1"
+            Grid.Row="1"
+            Grid.Column="2"
+            Background="PaleVioletRed" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='64'
+            x:Name="RedSafe2"
+            Grid.Row="2"
+            Grid.Column="2"
+            Background="PaleVioletRed" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='65'
+            x:Name="RedSafe3"
+            Grid.Row="3"
+            Grid.Column="2"
+            Background="PaleVioletRed" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='66'
+            x:Name="RedSafe4"
+            Grid.Row="4"
+            Grid.Column="2"
+            Background="PaleVioletRed" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='67'
+            x:Name="RedSafe5"
+            Grid.Row="5"
+            Grid.Column="2"
+            Background="PaleVioletRed" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='68'
+            x:Name="BlueSafe1"
+            Grid.Row="2"
+            Grid.Column="14"
+            Background="SkyBlue" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='69'
+            x:Name="BlueSafe2"
+            Grid.Row="2"
+            Grid.Column="13"
+            Background="SkyBlue" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='70'
+            x:Name="BlueSafe3"
+            Grid.Row="2"
+            Grid.Column="12"
+            Background="SkyBlue" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='71'
+            x:Name="BlueSafe4"
+            Grid.Row="2"
+            Grid.Column="11"
+            Background="SkyBlue" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='72'
+            x:Name="BlueSafe5"
+            Grid.Row="2"
+            Grid.Column="10"
+            Background="SkyBlue" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='73'
+            x:Name="YellowSafe1"
+            Grid.Row="14"
+            Grid.Column="13"
+            Background="PaleGoldenrod" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='74'
+            x:Name="YellowSafe2"
+            Grid.Row="13"
+            Grid.Column="13"
+            Background="PaleGoldenrod" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='75'
+            x:Name="YellowSafe3"
+            Grid.Row="12"
+            Grid.Column="13"
+            Background="PaleGoldenrod" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='76'
+            x:Name="YellowSafe4"
+            Grid.Row="11"
+            Grid.Column="13"
+            Background="PaleGoldenrod" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='77'
+            x:Name="YellowSafe5"
+            Grid.Row="10"
+            Grid.Column="13"
+            Background="PaleGoldenrod" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='78'
+            x:Name="GreenSafe1"
+            Grid.Row="13"
+            Grid.Column="1"
+            Background="Chartreuse" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='79'
+            x:Name="GreenSafe2"
+            Grid.Row="13"
+            Grid.Column="2"
+            Background="Chartreuse" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='80'
+            x:Name="GreenSafe3"
+            Grid.Row="13"
+            Grid.Column="3"
+            Background="Chartreuse" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='81'
+            x:Name="GreenSafe4"
+            Grid.Row="13"
+            Grid.Column="4"
+            Background="Chartreuse" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Button x:ConnectionId='82'
+            x:Name="GreenSafe5"
+            Grid.Row="13"
+            Grid.Column="5"
+            Background="Chartreuse" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            
+            BorderBrush="Black"
+        />
+        <Grid x:ConnectionId='83'
+            x:Name="RedHomeGrid"
+            Grid.Row="6" 
+            Grid.Column="2"
+            Background="PaleVioletRed">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='124'
+                x:Name="RedHome1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='125'
+                x:Name="RedHome2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='126'
+                x:Name="RedHome3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='127'
+                x:Name="RedHome4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <Grid x:ConnectionId='84'
+            x:Name="BlueHomeGrid"
+            Grid.Row="2" 
+            Grid.Column="9"
+            Background="SkyBlue">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='120'
+                x:Name="BlueHome1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='121'
+                x:Name="BlueHome2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='122'
+                x:Name="BlueHome3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='123'
+                x:Name="BlueHome4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <Grid x:ConnectionId='85'
+            x:Name="YellowHomeGrid"
+            Grid.Row="9" 
+            Grid.Column="13"
+            Background="PaleGoldenrod">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='116'
+                x:Name="YellowHome1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='117'
+                x:Name="YellowHome2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='118'
+                x:Name="YellowHome3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='119'
+                x:Name="YellowHome4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <Grid x:ConnectionId='86'
+            x:Name="GreenHomeGrid"
+            Grid.Row="13" 
+            Grid.Column="6"
+            Background="Chartreuse">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='112'
+                x:Name="GreenHome1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='113'
+                x:Name="GreenHome2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='114'
+                x:Name="GreenHome3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='115'
+                x:Name="GreenHome4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <!--#endregion-->
+        <!--#region StartSpaces-->
+        <Grid x:ConnectionId='87' 
+            x:Name="RedStartGrid"
+            Grid.Row="1" 
+            Grid.Column="4" 
+            Background="PaleVioletRed">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='108'
+                x:Name="RedStart1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='109'
+                x:Name="RedStart2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='110'
+                x:Name="RedStart3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='111'
+                x:Name="RedStart4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <Grid x:ConnectionId='88' 
+            x:Name="BlueStartGrid"
+            Grid.Row="4" 
+            Grid.Column="14"
+            Background="SkyBlue">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='104'
+                x:Name="BlueStart1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='105'
+                x:Name="BlueStart2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='106'
+                x:Name="BlueStart3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='107'
+                x:Name="BlueStart4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <Grid x:ConnectionId='89' 
+            x:Name="YellowStartGrid"
+            Grid.Row="14" 
+            Grid.Column="11" 
+            Background="PaleGoldenrod">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='100'
+                x:Name="YellowStart1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='101'
+                x:Name="YellowStart2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='102'
+                x:Name="YellowStart3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='103'
+                x:Name="YellowStart4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <Grid x:ConnectionId='90' 
+            x:Name="GreenStartGrid"
+            Grid.Row="11" 
+            Grid.Column="1" 
+            Background="Chartreuse">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='96'
+                x:Name="GreenStart1"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='97'
+                x:Name="GreenStart2"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='98'
+                x:Name="GreenStart3"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+            <Button x:ConnectionId='99'
+                x:Name="GreenStart4"
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                
+                BorderBrush="Black"
+                FontSize="5"
+            />
+        </Grid>
+        <!--#endregion-->
+        <!--#region Cards-->
+        <Image x:ConnectionId='91' 
+            x:Name="FaceUpCard"
+            Grid.Row="4"
+            Grid.Column="4"
+            Grid.RowSpan="6"
+            Grid.ColumnSpan="3"
+            Source="Images/SorryCard.png"
+            />
+        <Image x:ConnectionId='92'
+            x:Name="FaceDownCard"
+            Grid.Row="4"
+            Grid.Column="9"
+            Grid.RowSpan="6"
+            Grid.ColumnSpan="3"
+            Source="Images/BackOfCard.png"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"  
+                                       
+        />
+        <!--#endregion-->
+        <!--#region TurnLabel&StartGameButton&ForfeitTurnButton-->
+        <TextBlock x:ConnectionId='93' 
+            x:Name="TurnLabel"
+            Grid.Row="11" 
+            Grid.Column="6" 
+            Grid.ColumnSpan="4"
+            Text="Turn: Red"
+            HorizontalAlignment="Center"
+            FontSize="30"
+        />
+        <Button x:ConnectionId='94' 
+            x:Name="StartGameButton"
+            Grid.Row="10"
+            Grid.Column="6"
+            Grid.ColumnSpan="4"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Content="Press To Start Game"
+            FontSize="30"
+            Background="BlanchedAlmond"                              
+        />
+        <Button x:ConnectionId='95' 
+            x:Name="ForfeitTurnButton"
+            Grid.Row="10"
+            Grid.Column="6"
+            Grid.ColumnSpan="4"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Content="Forfeit Turn"
+            FontSize="30"
+            Background="BlanchedAlmond"
+            Visibility="Collapsed"
+                                           
+        />
+        <!--#endregion-->
+    </Grid>
+</Page>
+
